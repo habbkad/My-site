@@ -5,6 +5,7 @@ import Navbars from '../components/Navbars.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import image from '../assets/image.jpg'
 import Content1 from '../components/Content1.js';
+import SkillAcquired from '../components/SkillAcquired.js';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbars />
       <BigPicture/>
       <Content1 />
+      <SkillAcquired />
     </>
   )
 }

@@ -6,15 +6,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import image from '../assets/image.jpg'
 import Content1 from '../components/Content1.js';
 import SkillAcquired from '../components/SkillAcquired.js';
+import VideoContainer from '../components/VideoContainer.js';
 
 
 export default function Home() {
   return (
     <>
-      <Navbars />
+      {/* <Navbars /> */}
       <BigPicture/>
       <Content1 />
       <SkillAcquired />
+      <VideoContainer />
     </>
   )
 }
